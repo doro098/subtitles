@@ -1,0 +1,56 @@
+body{
+  background: white;
+  font-family: georgia, times,serif;
+  font-size: 1rem;
+  margin: 0;
+}
+header{
+  height: 4rem;
+  background: #000000;
+  color: white;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  padding: 0 auto;
+  font-size: 2rem;
+  display: flex;                     /*las sig 3 lineas son responsables del funcionamiento de la caebza*/
+  justify-content: space-between;
+  align-items: center;
+}
+
+header a{
+  letter-spacing: 0.5rem;
+    color: white;
+    padding-left: 1rem;
+    text-decoration: none;/*desaparece el subrayado*/
+
+}
+nav a{
+  letter-spacing: 0rem;
+  padding-right: 1rem;
+  font-size: 1rem;
+}
+
+.contenedor_body {
+padding: 5rem 3rem;
+  width: 80%;
+  max-width: 800px;
+  margin:auto; /*0 arriba abajo, AUTO a los costados */
+
+}
+div.formulario{
+  
+padding-top: 2rem;
+padding-bottom: 2rem;
+  background-color: #000000;
+  color: white;
+  text-align: center;
+}
+input.log{
+    text-align: center;
+}
+input.log.boton{
+  width: 20%;
+  font-size: 1rem;
+}
